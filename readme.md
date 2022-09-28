@@ -28,6 +28,10 @@ https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Mac
 
 ## 3. Create conda environment 
 
+example envrironment file (rasa==2.8.27):
+
+https://github.com/treize-khushrenada/rasa-training-apple-silicon/blob/main/env_rasa2-8.yml
+
 `conda env create -v --name rasa-core-m1 -f env_rasa2-8.yml`
 
 `conda env create -v --name bot-rs-actions-m1 -f env_rasa-actions.yml`
